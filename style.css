@@ -11,3 +11,32 @@ body {
     margin: auto;
 }
 
+.card {
+    background: #ddefe2;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 12px;
+
+}
+
+button {
+    padding: 12px;
+    margin-top: 10px;
+    background: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+input, select{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}

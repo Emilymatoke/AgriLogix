@@ -12,7 +12,7 @@ function saveRecord() {
         alert("Please enter a valid amount");
         return;
     }
-    if (type === income) {
+    if (type === "income") {
         income += amount;
     } else{
         expenses += amount;
